@@ -1,7 +1,7 @@
 package com.edu.chmnu.ki_123.c3;
 
 public class StackMain<E> implements Stack<E> {
-    private DynamicArray dynamicArray = new DynamicArray();
+    private final DynamicArray dynamicArray = new DynamicArray();
 
     @Override
     public void push(E element) {
